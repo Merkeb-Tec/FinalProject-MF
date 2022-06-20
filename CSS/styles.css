@@ -25,6 +25,21 @@
     font-size: 80px;
 }
 
+.luxury {
+    color: #52524C;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+.icons {
+    justify-content: around;
+    text-align: center;
+    color: #52524C;
+}
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #52524C;
+}
+   
 
 
 
