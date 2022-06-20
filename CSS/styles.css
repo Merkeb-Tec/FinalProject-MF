@@ -1,5 +1,5 @@
 .hero-image {
-    border: solid grey; 
+    border-bottom: solid grey; 
     height: 400px;
     background-image:url('../Images/pexels-evie-shaffer-2395249.jpg');
     background-size: cover;
@@ -34,6 +34,7 @@
     justify-content: around;
     text-align: center;
     color: #52524C;
+    border: solid red;
 }
 h3 {
     font-family: 'Source Sans Pro', sans-serif;
