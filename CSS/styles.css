@@ -83,7 +83,7 @@ h4 {
 }
 .carousel-item {
     border-radius: 15px;
-
+    height: auto;
 }
 
 
