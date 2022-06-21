@@ -68,6 +68,16 @@ h3 {
     color: #52524C;
     text-align: center;
 }
+hr {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background-color:#666;
+    opcaity: 0.2;
+}
+
+
 
 
 
