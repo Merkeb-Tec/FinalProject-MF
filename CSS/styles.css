@@ -86,8 +86,14 @@ h4 {
     height: auto;
 }
 .contact {
-    border: solid red;
-    width: 450px;
+    border: #666;
+    width: 75%;
+    padding: 25px;
+    border-radius: 15px;
+}
+form {
+    font-family: 'Source Sans Pro', sans-serif; 
+    color: #52524C;
 }
 
 
