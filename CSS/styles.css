@@ -56,6 +56,7 @@ h3 {
    opacity: 0.8;
    color: #52524C;
    font-family: 'Source Sans Pro', sans-serif; 
+   border-radius: 5px;
 }
 .textbox-dark {
     position:absolute;
