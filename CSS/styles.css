@@ -1,11 +1,13 @@
 .hero-image {
-    border-bottom: solid grey; 
+    border-bottom: solid grey 1px; 
+    box-shadow: 5px 0px grey;
     height: 400px;
     background-image:url('../Images/pexels-evie-shaffer-2395249.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     background-position: center;
+    
 }
 .navbar-nav {
     align-items: center;
@@ -26,7 +28,7 @@
     color: #52524C;
     padding-top: 165px;
     font-family: 'Allura', cursive;
-    border-bottom: #52524C;
+    
 } 
 .roma {
     font-size: 80px;
@@ -92,6 +94,10 @@ h4 {
 .carousel-item {
     border-radius: 15px;
     height: auto;
+}
+.about {
+    font-family: 'Italiana', serif; 
+    color: #52524C;
 }
 .contact {
     border: #666;
