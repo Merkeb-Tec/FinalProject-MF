@@ -49,12 +49,12 @@ h3 {
     background-position: center;
 }
 .textbox {
-    background-color: #2c2d2d;
+    background-color: #eaeaea;
     width: 500px;
     margin:auto;
     height: auto;
    opacity: 0.8;
-   color: #F2F2F2;
+   color: #52524C;
    font-family: 'Source Sans Pro', sans-serif; 
 }
 .textbox-dark {
@@ -85,7 +85,10 @@ h4 {
     border-radius: 15px;
     height: auto;
 }
-
+.contact {
+    border: solid red;
+    width: 450px;
+}
 
 
 
