@@ -1,6 +1,6 @@
 .hero-image {
     border-bottom: solid grey 1px; 
-    box-shadow: 5px 0px grey;
+    
     height: 400px;
     background-image:url('../Images/pexels-evie-shaffer-2395249.jpg');
     background-size: cover;
