@@ -1,6 +1,5 @@
 .hero-image {
-    border-bottom: solid grey 1px; 
-    
+    border-bottom: solid rgb(209, 206, 206) 1px; 
     height: 400px;
     background-image:url('../Images/pexels-evie-shaffer-2395249.jpg');
     background-size: cover;
@@ -38,6 +37,7 @@
     color: #52524C;
     font-family: 'Allura', cursive;
     text-align: center;
+    
 }
 .icons {
     justify-content: around;
@@ -46,7 +46,7 @@
     
 }
 h3 {
-    font-family: 'Allura', cursive;
+    font-family: 'Italiana', serif;
     color: #52524C;
 }
 .bg-image1 {
@@ -67,7 +67,7 @@ h3 {
     font-family: 'Italiana', serif;
     border-radius: 5px;
 }
-.textbox-dark {
+.textbox-light {
     position:absolute;
     top:50%;
     left:50%;
@@ -127,26 +127,13 @@ form {
 footer {
     width: auto;
     height: auto; 
-    border-top: #52524C solid 1px;
-}
-.icons {
-    justify-content: flex-start;
+    border-top: rgb(209, 206, 206) solid 1px;
 }
 .copy {
     font-family: 'Italiana', serif;
     text-align: center;
     width: auto;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /*.parallax {
