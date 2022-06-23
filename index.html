@@ -8,53 +8,189 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
-    <script src="https://kit.fontawesome.com/b695ae1dad.js" crossorigin="anonymous"></script>    <title>Hello, world!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Bilbo+Swash+Caps&family=Italiana&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b695ae1dad.js" crossorigin="anonymous"></script>    
+    <title>Roma's Events</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    
 
+  <div class=" hero-image has-bg-img m-3">
+    <nav class="navbar  navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse align-items-center p-2" id="navbarNavAltMarkup">
+          <div class="navbar-nav fs-4">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#weddings">Weddings</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#accordionExample">Catalog</a>
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="hero-text"> 
+      <h1 class="text-center roma">Roma's Events</h1>
+    </div>
+  </div>
 
+  <h1 class="p-4 luxury fs-1">Your Luxury Planners For</h1>
 
+  <div class="container-sm icons d-flex flex-column p-2 flex-md-row justify-content-around">
+    <div class="p-2">
+      <a class="icon-link" href="#weddings">
+        <i class="fa-thin fa-rings-wedding fa-3x"></i> 
+        <h3 class="wedding p-3 fs-1">Weddings</h3>
+      </a>
+    </div>    
+    <div class="p-2">
+      <a class="icon-link" href="#accordionExample">
+        <i class="fa-thin fa-handshake fa-3x"></i>
+        <h3 class="corporate p-3 fs-1">Corporate Events</h3>
+      </a>
+    </div>    
+    <div class="p-2">
+      <a class="icon-link" href="#accordionExample">
+        <i class="fa-thin fa-champagne-glasses fa-3x "></i>
+        <h3 class="other p-3 fs-1"> Other Events</h3>
+      </a>
+    </div>    
+  </div>
+  
+  <div class="bg-image1 m-3">
+    <div id="weddings"class="textbox-light"> <!--in order to center text box you will need to make image position relative and the text styling under textbox-dark-->
+      <div class="textbox p-3">
+        <h1 class="text-center fw-bold " style="font-family: 'Allura', cursive;;">Weddings</h1>
+        <p class="text-center fs-5">Let's make your dreams come true! <br>We can help plan your one of a kind, elegant wedding, filled with romance and wonder. </p>
+      </div>
+    </div>
+  </div>
+  <div class="wedtext m-3 p-2">
+    <h1 class="pt-3" style="font-family: 'Allura', cursive;"> Your Dream Wedding</h1>
+    <p class="p-2 fs-4">Our knowledge and assortment of original, one of a kind designs, have allowed us the priviledge of being of the Bay Area's most desired event planners. We will work tirelessly to make your dream wedding become a reality.  </p>
+  </div>
+  <hr>
+  <h4 class="pt-2 pb-3 text-center">Our Portfolio</h4>
 
+  <div id="carouselExampleIndicators" class="carousel slide m-3" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>      
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/Wedding/pexels-rachel-claire-4577408.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/Wedding/pexels-lelani-badenhorst-6789692.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/Wedding/pexels-gillian-harrison-8259016.jpg" class="d-block w-100 img-fluid" alt="...">
+      </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--Icons for weblinks-->
-    <i class="fa-regular fa-rings-wedding"></i>
-    <i class="fa-thin fa-handshake"></i>
-    <i class="fa-thin fa-champagne-glasses"></i>
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <i class="fa-brands fa-instagram"></i>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <div class="m-3 about" id="about">
+    <h1 class="p-3">About Us..</h1>
+    <p class="p-3 fs-4">We are a full service event, planning company. We specialize in budgeting, logistics and original designs. Our planners are 
+      vibrant, highly skilled planners with a tenure of service in the event planning industry.
+      <br><br>
+      We have exerience in a multitude of areas. Not only do we design and execute wedding ideas based on our clients wants and needs. We also 
+      plan and execute a variety of other affairs such as corporate events, community events, showers etc. 
+      <br>
+      
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Explore our catalog.
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <h2>Corporate Events</h2>
+              <div class="d-flex  flex-wrap flex-md-nowrap  bd-highlight mb-3">
+                <div class="container ">
+                  <div class="bg-img1 d-inline-block m-3 d-md-inline-block"></div>
+                  <div class="bg-img2 d-inline-block m-3 d-md-inline-block"></div>
+                  <div class="bg-img3 d-inline-block m-3 d-md-inline-block"></div>
+                  <div class="bg-img4 d-inline-block m-3 d-md-inline-block"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </p> 
+    <h1 class="p-3">Our Mission</h1>
+    <p class="p-3 fs-4">We are not only dedicated to serving our clients but our local communities as well. We continue to partner with non profits such as Kutana in hopes of creating a more equitable, just society. 
+      Learn more about their mission <a href="https://merkeb-tec.github.io/FinalProject/" target="_blank">here</a>.
+    </p>
+  </div>
+  <hr>
+  <h1 class="consultation text-center p-2">Schedule a consultation now!</h1>
+  
+  <form class="justify-content-center d-flex">
+    <div class="contact" id="contact"> 
+      <div class="d-flex">
+        <div class="form-floating mb-3 col-md-6 me-1">
+          <input type="text" class="form-control" id="floatingText" placeholder="text">
+          <label for="floatingtext">First Name</label>
+        </div> 
+        <div class="form-floating mb-3 col-md-6">
+          <input type="text" class="form-control" id="floatingText" placeholder="text">
+          <label for="floatingtext">Last Name</label>
+        </div>
+      </div>
+      <div class="d-flex">
+        <div class="form-floating col-md-6 mb-3 me-1">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <!--<div class="form-floating mb-3 col-md-6">
+          <label for="eventdate">Date of Event:</label>
+          <input type="date" id="event" name="event">
+        </div>-->
+      </div>
+      <div class="form-floating mb-3 col-12">
+        <input type="text" class="form-control" id="floatingText" placeholder="text">
+        <label for="floatingtext">Location of Event</label>
+      </div>
+      <div class="form-floating col-12 mb-3">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px;" ></textarea>
+        <label for="floatingTextarea">Leave comments or design concepts here..</label>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </div>
+  </form>
+  
+  <footer>
+    <div class="d-flex m-3">
+      <div class="container icons">
+        <i class="fa-brands fa-instagram fa-2x p-2"></i>
+        <i class="fa-brands fa-facebook-f fa-2x p-2"></i>
+        <i class="fa-brands fa-twitter fa-2x p-2"></i>
+        <i class="fa-brands fa-pinterest-square fa-2x p-2"></i>
+      </div> 
+    </div>
+    <div class="copy pt-1 pb-3 fs-5"> Roma's Events &copy 2022</div>
+  </footer>
+ 
 
     <!--credits-->
    
@@ -63,7 +199,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
